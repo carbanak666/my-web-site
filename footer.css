@@ -1,0 +1,31 @@
+.footer {
+    background: #000000;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .footer-texto {
+    font-size: 20px;
+    line-height: 1.25;
+    color: #cccccc;
+  }
+  
+  .footer-contato li {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .footer-contato li a {
+    color: #ffffff;
+  }
