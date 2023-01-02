@@ -12,3 +12,8 @@
     border-radius: 50px;
 }
 
+.introducao img:hover {
+   border-radius: 10px;
+   transition: 0.4s;
+}
+
