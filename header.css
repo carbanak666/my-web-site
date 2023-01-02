@@ -24,3 +24,9 @@
     color: #141414;
     display: block;
  }
+
+ .header-menu a:hover {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  transition: 0.2s;
+ }
