@@ -29,3 +29,8 @@
   .footer-contato li a {
     color: #ffffff;
   }
+
+  .footer-contato a:hover {
+      color: #a9a9a9;
+      transition: 0.2s;
+  }
