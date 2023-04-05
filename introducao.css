@@ -17,3 +17,26 @@
    transition: 0.4s;
 }
 
+.titulo-efeito{
+  max-width: 460px;
+  text-align: center;
+  margin: 10px auto;
+  font-family:'Courier New', Courier, monospace;
+  color: #000;
+}
+.titulo-efeito:after{
+content: '|';
+margin-left: 5px;
+opacity: 1;
+animation: pisca .7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
